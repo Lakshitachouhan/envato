@@ -1,0 +1,667 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Josefin+Sans:wght@100;200;300&family=Montserrat:wght@100;200;300;400;500;600;700&family=Playball&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Josefin+Sans:wght@100;200;300&family=Montserrat:wght@100;200;300;400;500;600;700&family=Playball&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.maincontainer {
+  width: 100%;
+  height: auto;
+}
+.container {
+  width: 100%;
+  background-color: #9d1414;
+}
+.logo img {
+  position: absolute;
+  top: 0;
+  gap: 20px;
+  z-index: 99;
+}
+.navbar {
+  max-width: 1170px;
+  margin: auto;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin-left: 120px;
+}
+ul select {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  width: 135px;
+  outline: none;
+}
+ul select option {
+  color: black;
+  background: antiquewhite;
+  border: none;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.search {
+  border: 1px solid white;
+  width: 35px;
+  height: 35px;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+.cart {
+  border: 1px solid white;
+  padding: 10px;
+  height: 35px;
+  border-radius: 3px;
+  gap: 10px;
+}
+
+.menu {
+  border: 1px solid white;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.slider-bg {
+  /* height: 400px; */
+  padding: 80px;
+  background-image: url(./images/2_65174602-c41e-437a-a443-b1ec72838027.jpg);
+  background-size: cover;
+}
+.slider-bg button {
+  border: 1px solid #ffc03f;
+  padding-inline: 50px;
+  padding-block: 18px;
+  background: none;
+  color: white;
+  display: block;
+  font-size: 17px;
+}
+.slider-content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.slider-bg2 {
+  background-image: url(./images/slides\ img\ 2.jpg);
+  background-size: cover;
+  height: 600px;
+  padding: 100px;
+}
+.slider-content2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider-bg2 .slider-content2 {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+    text-align: center;  */
+  gap: 40px;
+}
+.slider-bg2 button {
+  border: 1px solid #ffc03f;
+  padding-inline: 50px;
+  padding-block: 18px;
+  background: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+}
+.slider-bg3 {
+  background-image: url(./images/slides\ img3.jpg);
+  background-size: cover;
+  padding: 100px;
+}
+.slider-bg3 button {
+  border: 1px solid #ffc03f;
+  padding-inline: 50px;
+  padding-block: 18px;
+  background: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  margin-left: 30px;
+  margin-top: 20px;
+  /* gap: 20px; */
+}
+.Card {
+  background-color: #efb274;
+  /* color: #e5c179; */
+  /* visibility: hidden; */
+  display: none;
+}
+.view-page {
+  background-color: #f1e5db;
+  height: auto;
+}
+.welcome {
+  margin-top: 1000px;
+
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.welcome h1 {
+  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playball", cursive;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 400;
+  margin-block: 20px;
+}
+.welcome p {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  color: #302f2f;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+.welcome img {
+  padding-block: 50px;
+}
+
+.fast-food {
+  max-width: 1170px;
+  margin: auto;
+  background-image: url(./images/fast-food.jpg);
+  margin-bottom: 50px;
+}
+.fast-food h1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  font-size: 50px;
+  border-radius: 4px;
+  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playball", cursive;
+  font-weight: 300;
+  font-size: 60px;
+}
+
+.circles-container {
+  padding-block: 20px;
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.circle-parent {
+  width: 23%;
+  position: relative;
+}
+.circle-icons {
+  display: none;
+  position: absolute;
+  top: 75px;
+  left: 20px;
+}
+.her {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.circle-icons button {
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  background-color: #ffc03f;
+  text-align: center;
+  padding: 10px 30px;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.heart {
+  border: 3px solid rgb(227, 227, 215);
+  color: white;
+  background-color: #ffc03f;
+  padding: 10px;
+  border-radius: 50%;
+}
+.heart:hover {
+  background-color: #9d1414;
+}
+.circle-parent:hover .circle-icons {
+  display: block;
+}
+
+.circle-box {
+  background-image: url(./images/circle\ background\ border.png);
+  background-repeat: no-repeat;
+  height: 225px;
+  position: relative;
+}
+.circle-box img {
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.circle-parent:hover .circle-box img {
+  animation: ghumi 10s;
+}
+
+@keyframes ghumi {
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* .circle-icons {
+  display: flex;
+  gap: 30px;
+  
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100px;
+  padding-inline: 10px;
+  visibility: hidden;
+ 
+  transition: 0.1s;
+  
+  left: 20px;
+} */
+/* .parent:hover .circle-icons {
+  visibility: visible;
+}
+.heart:hover {
+  background-color: #9d1414;
+
+} */
+/* .heart {
+  border: 3px solid rgb(227, 227, 215);
+  color: white;
+  background-color: #ffc03f;
+  padding: 10px;
+  border-radius: 50%;
+}
+.eye:hover {
+  background-color: #9d1414;
+
+} */
+/* .eye {
+  border: 3px solid rgb(227, 227, 215);
+  color: white;
+  background-color: #ffc03f;
+  padding: 10px;
+  border-radius: 50%;
+}
+.repeat:hover {
+  background-color: #9d1414;
+
+} */
+/* .repeat {
+  border: 3px solid rgb(227, 227, 215);
+  color: white;
+  background-color: #ffc03f;
+  padding: 10px;
+  border-radius: 50%;
+} */
+/* .circles {
+  position: relative;
+  max-width: 1170px;
+  margin: auto;
+  background-color: #f1e5db;
+  display: flex;
+  justify-content: space-between;
+} */
+/* .circle1 {
+  
+  background-image: url(./images/circle\ background\ border.png);
+  background-repeat: no-repeat;
+  padding: 20px;
+} */
+
+/* .circle1:hover img {
+  animation: rotate 15s;
+} */
+
+/* @keyframes rotate {
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.circle1 img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.atc {
+  position: absolute;
+  bottom: -10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: #ffc03f;
+  text-align: center;
+  padding: 10px 30px;
+  visibility: hidden;
+  left: 20px;
+}
+.parent:hover .atc {
+  visibility: visible;
+  transition: 0.1s;
+} */
+
+.pizza {
+  max-width: 1170px;
+  margin: auto;
+  margin-block: 70px;
+  color: white;
+  text-align: center;
+  background-size: cover;
+
+  background-image: url(./images/pizza.jpg);
+}
+.pizza h1 {
+  font-size: 70px;
+  font-weight: 300;
+  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playball", cursive;
+  padding-block: 50px;
+}
+
+#two {
+  max-width: 1170px;
+  margin: auto;
+}
+.hamburgur {
+  max-width: 1170px;
+  margin: auto;
+  background-image: url(./images/hambugur.jpg);
+}
+.hamburgur h1 {
+  font-size: 70px;
+  font-weight: 300;
+  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playball", cursive;
+  padding-block: 50px;
+  color: white;
+  text-align: center;
+  margin-block: 70px;
+}
+
+.drink {
+  max-width: 1170px;
+  margin: auto;
+  background-image: url(./images/drink.jpg);
+}
+.drink h1 {
+  font-size: 70px;
+  font-weight: 300;
+  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playball", cursive;
+  padding-block: 50px;
+  color: white;
+  text-align: center;
+  margin-block: 70px;
+}
+
+.home {
+  max-width: 1170px;
+  margin: auto;
+  margin-top: 100px;
+  position: relative;
+}
+
+.fhd {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  color: white;
+  font-size: 70px;
+  font-weight: 300;
+}
+.fhd h1 {
+  font-size: 100px;
+  font-weight: 500;
+  color: #ffdaa8;
+}
+.fhd p {
+  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playball", cursive;
+}
+.heading h1 {
+  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playball", cursive;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 400;
+  margin-block: 20px;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1170px;
+  margin: auto;
+  gap: 20px;
+}
+.box {
+  width: 32%;
+  position: relative;
+  overflow: hidden;
+}
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.7);
+  top: 0;
+  transition: 0.3s;
+  right: -100%;
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  justify-content: center;
+}
+
+.box:hover .layer {
+  right: 0%;
+}
+.last-burgur {
+  max-width: 1170px;
+  margin: auto;
+  margin-top: 80px;
+}
+.footer-page {
+  background-image: url(./images/bg_footer.png);
+  /* height: 1000px; */
+  background-color: #000000;
+  /* background-color: #ffc03f; */
+}
+.footer1 {
+  width: 31%;
+}
+.footer1 p {
+  color: white;
+  margin-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  line-height: 1.3rem;
+}
+.footer1 img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.footer-content {
+  display: flex;
+  max-width: 1170px;
+  margin: auto;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+.art {
+  display: flex;
+  gap: 20px;
+}
+.art h5 {
+  color: #ffc03f;
+  font-size: 15px;
+  font-weight: 400;
+}
+.oct p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  line-height: 1.3rem;
+}
+.footer2 {
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+.footer-3 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 30px;
+}
+.location {
+  display: flex;
+}
+.location i {
+  margin-right: 15px;
+  color: #ffc03f;
+}
+.phone {
+  display: flex;
+}
+.phone i {
+  color: #ffc03f;
+  margin-right: 15px;
+}
+.mail {
+  display: flex;
+}
+.mail i {
+  color: #ffc03f;
+  margin-right: 15px;
+}
+#ul {
+  display: flex;
+  gap: 40px;
+  margin-left: 0px;
+}
+#ul li {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 3px;
+}
+#ul li:hover {
+  background-color: #ffc03f;
+}
+.follow {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.payment {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.rp p {
+  font-family: "Playball", cursive;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.follow p {
+  font-family: "Playball", cursive;
+  font-size: 30px;
+}
+.payment p {
+  font-family: "Playball", cursive;
+  font-size: 30px;
+}
+.last-footer {
+  background-color: #9d1414;
+  color: white;
+  font-size: 13px;
+  padding-block: 50px;
+}
+#copyright {
+  margin-left: 0;
+  max-width: 1000px;
+  margin: auto;
+  gap: 0;
+}
+.last-footer p {
+  text-align: center;
+  font-size: 18px;
+}
+#copyright li {
+  padding: 10px;
+}
